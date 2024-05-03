@@ -1,20 +1,15 @@
 package Registeration;
 
 import Base.BaseTests;
-import Pages.HomePage;
 import Pages.RegisterationPage;
 import Reader.ReadDataFromJson;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import java.io.FileNotFoundException;
 
 import static org.testng.AssertJUnit.assertTrue;
 
-public class RegistrationTests extends BaseTests {
+public class ValidRegisteration extends BaseTests {
 
     ReadDataFromJson readDataFromJson;
 
