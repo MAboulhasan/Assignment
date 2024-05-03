@@ -1,0 +1,26 @@
+{
+  "Website": "https://demo.nopcommerce.com/",
+  "Registeration": {
+    "ValidCredentials": {
+      "Firstname": "Mohamed",
+      "Lastname": "Ahmed",
+      "Email": "briffounaukoquoi-9025@yopmail.com",
+      "Password": "mohamed123",
+      "ConfirmPassword" : "mohamed123",
+      "Company" : "ABC"
+    },
+    "InvalidCredentials" : {
+      "Invalidemail" : {
+        "Firstname": "Mohamed",
+        "Lastname": "Ahmed",
+        "Email": "mohamedaboulhassan72  @gmail.com",
+        "Password": "mohamed123",
+        "ConfirmPassword" : "mohamed123",
+        "Company" : "ABC"
+
+      }
+
+
+    }
+  }
+}
