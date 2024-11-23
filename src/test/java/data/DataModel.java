@@ -1,8 +1,7 @@
 package data;
 
-import java.net.URL;
-
 public class DataModel {
-    public Registeration Registeration;
+    public Login Login;
+    public Admin Admin;
 
 }

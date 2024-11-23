@@ -1,26 +1,19 @@
 {
-  "Website": "https://demo.nopcommerce.com/",
-  "Registeration": {
+  "Login": {
     "ValidCredentials": {
-      "Firstname": "Mohamed",
-      "Lastname": "Ahmed",
-      "Email": "mohamedaboulhasan15@gmail.com",
-      "Password": "mohamed123",
-      "ConfirmPassword" : "mohamed123",
-      "Company" : "ABC"
-    },
-    "InvalidCredentials" : {
-      "Invalidemail" : {
-        "Firstname": "Mohamed",
-        "Lastname": "Ahmed",
-        "Email": "mohamedaboulhassan72  @gmail.com",
-        "Password": "mohamed123",
-        "ConfirmPassword" : "mohamed123",
-        "Company" : "ABC"
+      "Username": "Admin",
+      "Password": "admin123"
+    }
+  },
+    "Admin":{
+  "SaveUser": {
+    "usernamesave": "Ahmed Ali",
+    "passwordsave": "Ahmed@12345",
+    "confirmpasswordsave": "Ahmed@12345"
+  }
+}
 
-      }
 
 
     }
-  }
-}
+

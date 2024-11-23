@@ -1,4 +1,4 @@
-package Reader;
+package reader;
 
 import com.google.gson.Gson;
 import data.DataModel;
@@ -13,8 +13,6 @@ ReadDataFromJson {
         FileReader fileReader = new FileReader("data/testdata.json");
 
 
-        DataModel dataModel = new Gson().fromJson(fileReader, DataModel.class);
-
-        return dataModel;
+        return new Gson().fromJson(fileReader, DataModel.class);
     }
 }
